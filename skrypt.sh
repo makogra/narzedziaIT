@@ -10,7 +10,7 @@ then
     echo $(date)
 fi
 
-#zad2
+#zad3
 create_logs() {
     i=1 
     while((i <= $1));do
@@ -29,6 +29,10 @@ create_logs() {
 
 if [ $1 == "--logs" ]
 then
-    create_logs 100
+    number_of_logs=100
+    if [ $# == 2 ]
+    then
+        number_of_logs=$2
+    fi
+    create_logs $number_of_logs
 fi
-
