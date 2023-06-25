@@ -5,7 +5,7 @@ then
     exit 0
 fi
 
-if [ $1 == "--date" ]
+if [[ $1 == "--date" || $1 == "-d" ]]
 then
     echo $(date)
 fi
@@ -27,7 +27,7 @@ create_logs() {
     done
 }
 
-if [ $1 == "--logs" ]
+if [[ $1 == "--logs" || $1 == "-l" ]]
 then
     number_of_logs=100
     if [ $# == 2 ]
@@ -38,7 +38,7 @@ then
 fi
 
 #zad5
-if [ $1 == "--help" ]
+if [[ $1 == "--help" || $1 == "-h" ]]
 then
     cat "help.txt"
 fi
