@@ -42,3 +42,11 @@ if [[ $1 == "--help" || $1 == "-h" ]]
 then
     cat "help.txt"
 fi
+
+#zad7
+if [[ $1 == "--init" || $1 == "-i" ]]
+then
+    destination=$(pwd)
+    source=$(driname -- "$0"; )
+    cp -R "$source/" "$destination"
+fi

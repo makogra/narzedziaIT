@@ -7,3 +7,7 @@ skryptu który go utworzył i datę
 - „skrypt.sh --logs 30” utworzenie automatycznie 30 plików, analogicznie
 jak wyżej, ale z obsługą argumentu liczby plików
 - „skrypt.sh --help” wyświetlenie wszystkich dostępnych opcji
+- do flag z podwójnym -, dodać flagi z pojedyńczym -:
+--help -h
+--logs -l
+--date -d
