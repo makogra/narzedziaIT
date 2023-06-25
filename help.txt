@@ -1,0 +1,9 @@
+- „skrypt.sh --date” wyświetli dzisiejszą datę
+- utworzyć plik .gitignore, który będzie ignorować wszystkie pliki
+zawierające w nazwie ciąg znaków „log”
+- „skrypt.sh --logs” utworzy automatycznie 100 plików logx.txt, x – numer
+pliku od 1 – 100, w każdym pliku należy wpisać jego nazwę, nazwę
+skryptu który go utworzył i datę
+- „skrypt.sh --logs 30” utworzenie automatycznie 30 plików, analogicznie
+jak wyżej, ale z obsługą argumentu liczby plików
+- „skrypt.sh --help” wyświetlenie wszystkich dostępnych opcji

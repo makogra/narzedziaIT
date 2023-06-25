@@ -36,3 +36,9 @@ then
     fi
     create_logs $number_of_logs
 fi
+
+#zad5
+if [ $1 == "--help" ]
+then
+    cat "help.txt"
+fi
